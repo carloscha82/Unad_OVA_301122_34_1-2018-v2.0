@@ -222,6 +222,11 @@ video{
 	width: 60%;
 }
 
+.videoArticle iframe{
+	width: 60%;
+	height: 30rem;
+}
+
 #tablaAutores{
 	text-align: center;
 
