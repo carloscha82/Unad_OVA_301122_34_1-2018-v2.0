@@ -83,13 +83,12 @@
             src="../svg/instagram.svg" alt="Instagram UNAD"></a> </div>
       <section id="principal">
         <h2 style="text-align: center;">Vídeos</h2>
-        <p style="text-align: center;"><b>Introducción a SGBD (Sistema de
-            Gestión de Base de Datos)</b></p>
-        <div style="text-align: center;"><video src="../video/sgbd.webm" preload="auto"
-            controls="controls" height="400" width="400"></video></div>
+        <p style="text-align: center;">Introducción a SGBD (Sistema de Gestión
+          de Base de Datos)</p>
+        <div style="text-align: center;"><video src="../video/sgbd.webm" preload="auto"		controls="controls" height="400" width="400"></video></div>
         <p><br>
         </p>
-        <p style="text-align: center;"><b>Modelo Relacional </b></p>
+        <p style="text-align: center;">Modelo Relacional </p>
         <p style="text-align: center;"><br>
         </p>
         <div style="text-align: center;"><video src="../video/Modelo%20Relacional.webm"
