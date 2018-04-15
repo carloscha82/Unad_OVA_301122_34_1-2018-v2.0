@@ -232,6 +232,14 @@ video{
 	border-color: rgba(0, 0, 0, 0.5);
 }
 
+.insta{
+	text-align: justify;
+}
+
+.v_insta{
+	height: 400px;
+	width: 400px;
+}
 aside{
 	display: block;
 	float: left;
