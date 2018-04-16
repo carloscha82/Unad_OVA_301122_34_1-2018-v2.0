@@ -26,6 +26,7 @@ h1, h2, h3{
 	color:rgba(0,88,181,1);
 	font-weight: 600;
 }
+
 #logo-izq{
 	position:absolute;
 	top: 51%;
@@ -109,6 +110,7 @@ header h1{
 }
 #lista-ppal li a:hover, #lista-ppal li a:active{
 	background-color: rgba(244,121,32,1);
+
 }
 #lista-ppal li a:hover + ul, #lista-ppal li ul:hover, #lista-ppal li a:active + ul, #lista-ppal li ul:active{
 	display: block;

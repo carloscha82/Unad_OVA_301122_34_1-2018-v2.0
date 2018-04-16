@@ -11,12 +11,12 @@ $(document).ready(function(){
 
   //Funcion que detecta el link seleccionado, lee el atributo alt y carga la pagina correspondiente en el section principal
   $("nav a").click(function(){
-    var url=$(this).attr("alt");
+    var url=$(this).attr("id");
     var loc=window.location;
     var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
 
     //carga el html correspndiente en el section principal del index.html
-    $("#principal").load(url);
+    $("#principal").load('html/'+url+'.html');
 
     //busca todas las etiquetas li precedidas del id lista-ppal (ul) y remueve la clase de linkSeleccion
     $("#lista-ppal>li").each(function() {
